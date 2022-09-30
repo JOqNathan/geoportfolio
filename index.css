@@ -1,9 +1,9 @@
 @font-face {
 	font-family: 'Belda';
-	src: url('/font/belda.otf');
+	src: url('./font/belda.otf');
 } @font-face {
 	font-family: 'NotoSans';
-	src: url('/font/notosans.ttf');
+	src: url('./font/notosans.ttf');
 }
 
 /* ELEMENTS */
