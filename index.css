@@ -17,17 +17,19 @@ body {
 	color: #747;
 	margin: 0px;
 	font-size: 36px;
-	padding: 12px 0px 0px 12px;
+	padding: 6px 12px;
 } p {
 	font-family: 'Belda';
 	font-size: 18px;
 	margin: 0px;
-	padding: 12px 0px 0px 12px;
+	padding: 6px 12px;
 } a {
 	text-decoration: none;
 	color: inherit;
 } a:hover {
 	text-decoration: underline;
+} a > p {
+	font-family: 'Noto Sans';
 }
 
 /* CLASSES */
@@ -55,6 +57,7 @@ body {
 	font-family: 'NotoSans';
 } .featureImage {
 	width: 100%;
+	padding-top: 12px;
 	/* image-rendering: pixelated; */
 }
 
@@ -83,13 +86,19 @@ body {
 	background-color: #EEF;
 	position: relative;
 	min-width: 648px;
+} #meImage {
+	width: 100%;
 }
+
 
 #footer {
 	background-color: #505;
 	min-width: 648px;
 	height: 108px;
 	margin: 0px;
+	color: #EEF;
+} #footer > .wrapper > h1 {
+	color: #FAC;
 }
 
 @media only screen and (min-width: 918px) {

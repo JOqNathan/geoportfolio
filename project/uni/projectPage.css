@@ -16,11 +16,13 @@ body {
 } h1 {
 	color: #747;
 	margin: 0px;
-	/* add font size */
+	font-size: 36px;
+	padding: 6px 12px;
 } p {
 	font-family: 'Belda';
 	font-size: 18px;
 	margin: 0px;
+	padding: 6px 12px;
 } a {
 	text-decoration: none;
 	color: inherit;
@@ -104,6 +106,9 @@ body {
 	min-width: 648px;
 	height: 108px;
 	margin: 0px;
+	color: #EEF;
+} #footer > .wrapper > h1 {
+	color: #FAC;
 }
 
 @media only screen and (min-width: 918px) {
