@@ -86,7 +86,9 @@ body {
 	background-color: #EEF;
 	position: relative;
 	min-width: 648px;
-} #meImage {
+}
+
+#meImage {
 	width: 100%;
 }
 
